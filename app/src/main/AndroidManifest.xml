@@ -24,6 +24,9 @@ package="com.example.s.sunshinesari.app">
             android:name="android.support.PARENT_ACTIVITY"
             android:value="com.example.s.sunshinesari.app.MainActivity" />
     </activity>
+    <provider
+        android:authorities="com.example.s.sunshinesari.app"
+        android:name=".data.WeatherProvider"/>
 </application>
 
 </manifest>
