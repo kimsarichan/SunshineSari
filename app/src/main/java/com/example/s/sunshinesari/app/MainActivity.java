@@ -28,6 +28,10 @@ public class MainActivity extends AppCompatActivity {
         mLocation=Utility.getPreferredLocation(this);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+
+        assert toolbar != null;
+        toolbar.setTitle("");
+        toolbar.setLogo(R.drawable.ic_logo);
         setSupportActionBar(toolbar);
         if(savedInstanceState==null) {
             FragmentManager transaction = getSupportFragmentManager();
