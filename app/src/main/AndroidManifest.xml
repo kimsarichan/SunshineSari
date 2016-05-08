@@ -26,7 +26,8 @@ package="com.example.s.sunshinesari.app">
     </activity>
     <provider
         android:authorities="com.example.s.sunshinesari.app"
-        android:name=".data.WeatherProvider"/>
+        android:name=".data.WeatherProvider"
+        android:exported="true"/>
 </application>
 
 </manifest>
